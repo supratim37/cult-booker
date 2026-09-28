@@ -21,5 +21,5 @@
   "hotPollMs": 2000,
   "coolPollMs": 300000,
   "campUntil": "22:30",
-  "dryRun": true
+  "dryRun": false
 }
