@@ -6,8 +6,10 @@ const path = require('path');
 const API_DUMMY_KEY = '9d153009-e961-4718-a343-2a36b0a1d1fd';
 
 function loadAuth() {
-  const at = process.env.CULT_AT;
-  const st = process.env.CULT_ST;
+  // const at = process.env.CULT_AT;
+  // const st = process.env.CULT_ST;
+  const at='CFAPP%3A9da3c19f-8d97-4da6-8106-6fef0d02afa4';
+  const st='CFAPP%3A85ce7bb5-07f1-43e6-bcdc-d0c70d31ab27';
 
   if (!at || !st) {
     throw new Error(
